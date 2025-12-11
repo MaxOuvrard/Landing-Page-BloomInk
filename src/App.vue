@@ -55,10 +55,13 @@ const cards = [
   <div class="bg-white h-60">
     <div class="h-20 w-full bg-[url(/banner1.svg)] bg-cover bg-no-repeat"/>
 
-    <div class="flex">
-      <img src="" alt="">
-      <img src="" alt="">
-      <img src="" alt="">
+    <div class="flex w-full justify-around items-center h-full pb-15">
+      <img class="w-20" src="/marques/img1.png" alt="">
+      <img class="w-50" src="/marques/img2.png" alt="">
+      <img class="w-20" src="/marques/img3.png" alt="">
+      <img class="w-20" src="/marques/img4.png" alt="">
+      <img class="w-20" src="/marques/img5.png" alt="">
+      <img class="w-20" src="/marques/img6.png" alt="">
     </div>
   </div>
 
