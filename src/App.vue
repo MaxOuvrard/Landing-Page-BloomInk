@@ -212,7 +212,7 @@ const cards = [
   </div>
 
   <div class="flex justify-around bg-white pb-40 text-black">
-    <div class="mt-40 flex justify-around items-center w-full">
+    <div class="mt-40 flex flex-wrap justify-around items-center w-full">
       <div class="flex flex-col gap-5 w-120">
         <h1 class="text-5xl font-bold">Questions Fréquemment Posées</h1>
         <p>Vous avez encore des questions ? Consultez nos réponses aux demandes les plus fréquentes et contactez-nous pour un échange avec un expert.</p>
@@ -223,6 +223,23 @@ const cards = [
         <FAQ title="Puis-je parler avec un artiste avant de prendre une décision ?" description="Cela dépend de la zone, de la cicatrisation et de votre sensibilité. Les artistes vous expliquent le processus et adaptent leur technique."/>
         <FAQ title="Combien coûte un tatouage reconstructif ?" description="Les prix varient selon la complexité et la taille. Certains projets peuvent être partiellement pris en charge — nous vous guidons selon votre cas."/>
         <FAQ title="Comment savoir si un tatoueur est réellement spécialisé ?" description="Tous les artistes Bloomink sont notés en permanence et noté par les utilisateur pour les utilisateurs."/>
+      </div>
+    </div>
+  </div>
+
+  <div class="mt-10 py-10 flex flex-col items-center justify-around pb-40 gap-15">
+    <h1 class="relative text-5xl font-bold w-150 text-center">
+      Prêt·e à faire décoller votre reconstruction ?
+      <img class="absolute -left-40 -top-5" src="/abstract1.png" alt="">
+    </h1>
+    
+    <div class="flex gap-8">
+      <div class="text-center leading-13 w-100 h-30 text-3xl px-10 py-8 rounded-4xl border-3 hover:opacity-50 cursor-pointer">
+        APP STORE
+      </div>
+      <div class="relative text-center leading-13 w-100 h-30 text-3xl px-10 py-8 rounded-4xl border-3 hover:opacity-50 cursor-pointer">
+        PLAYSTORE STORE
+        <img class="absolute -right-20 -top-20" src="/abstract2.png" alt="">
       </div>
     </div>
   </div>
