@@ -1,0 +1,135 @@
+@import "tailwindcss";
+
+/* ---------- GRAPHIE EXTRA LIGHT ---------- */
+@font-face {
+  font-family: "Graphie";
+  src: url("/fonts/Graphie-ExtraLight.otf") format("opentype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Graphie";
+  src: url("/fonts/Graphie-ExtraLightItalic.otf") format("opentype");
+  font-weight: 200;
+  font-style: italic;
+}
+
+/* ---------- GRAPHIE LIGHT ---------- */
+@font-face {
+  font-family: "Graphie";
+  src: url("/fonts/Graphie-Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Graphie";
+  src: url("/fonts/Graphie-LightItalic.otf") format("opentype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* ---------- GRAPHIE REGULAR ---------- */
+@font-face {
+  font-family: "Graphie";
+  src: url("/fonts/Graphie-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Graphie";
+  src: url("/fonts/Graphie-Italic.otf") format("opentype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* ---------- GRAPHIE BOOK ---------- */
+@font-face {
+  font-family: "Graphie";
+  src: url("/fonts/Graphie-Book.otf") format("opentype");
+  font-weight: 450;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Graphie";
+  src: url("/fonts/Graphie-BookItalic.otf") format("opentype");
+  font-weight: 450;
+  font-style: italic;
+}
+
+/* ---------- GRAPHIE SEMIBOLD ---------- */
+@font-face {
+  font-family: "Graphie";
+  src: url("/fonts/Graphie-SemiBold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Graphie";
+  src: url("/fonts/Graphie-SemiBoldItalic.otf") format("opentype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+/* ---------- GRAPHIE BOLD ---------- */
+@font-face {
+  font-family: "Graphie";
+  src: url("/fonts/Graphie-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Graphie";
+  src: url("/fonts/Graphie-BoldItalic.otf") format("opentype");
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* ---------- GRAPHIE EXTRA BOLD ---------- */
+@font-face {
+  font-family: "Graphie";
+  src: url("/fonts/Graphie-ExtraBold.otf") format("opentype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Graphie";
+  src: url("/fonts/Graphie-ExtraBoldItalic.otf") format("opentype");
+  font-weight: 800;
+  font-style: italic;
+}
+
+/* ---------- GRAPHIE THIN ---------- */
+@font-face {
+  font-family: "Graphie";
+  src: url("/fonts/Graphie-Thin.otf") format("opentype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Graphie";
+  src: url("/fonts/Graphie-ThinItalic.otf") format("opentype");
+  font-weight: 100;
+  font-style: italic;
+}
+
+body {
+  font-family: "Graphie", sans-serif;
+
+  background-color: #29282D;
+  color: #FDFDF2;
+}
+
+.glass {
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+}
