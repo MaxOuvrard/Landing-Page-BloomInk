@@ -19,6 +19,8 @@ const cards = [
     image: `${import.meta.env.BASE_URL}frame4.jpg`
   },
 ]
+
+const frame2 = `${import.meta.env.BASE_URL}frame2.jpg`
 </script>
 
 <template>
@@ -85,7 +87,7 @@ const cards = [
             class="w-95"
             title="Tatoueurs spécialisés"
             description="Chaque tatoueur est vérifié et expérimenté dans le tatouage thérapeutique. Vous choisissez un artiste de confiance, vraiment adapté à votre parcours."
-            :image="`${import.meta.env.BASE_URL}frame1.jpg`"
+            :image="frame2"
         />
       </div>
 
