@@ -85,7 +85,7 @@ const cards = [
             class="w-95"
             title="Tatoueurs spécialisés"
             description="Chaque tatoueur est vérifié et expérimenté dans le tatouage thérapeutique. Vous choisissez un artiste de confiance, vraiment adapté à votre parcours."
-            image="/frame1.jpg"
+            :image="`${import.meta.env.BASE_URL}/frame1.jpg`"
         />
       </div>
 
