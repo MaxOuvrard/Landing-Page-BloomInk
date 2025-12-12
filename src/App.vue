@@ -6,23 +6,24 @@ const cards = [
   {
     title: 'Soutien & bien-être',
     description: 'Une communauté bienveillante où partager vos questions, vos doutes et vos victoires, sans jugement.',
-    image: `${import.meta.env.BASE_URL}/frame2.jpg`
+    image: `${import.meta.env.BASE_URL}frame2.jpg`
   },
   {
     title: 'Le parcours',
     description: 'Guides, étapes, retours d’expérience… Tout pour vous aider à comprendre si le tatouage thérapeutique est fait pour vous.',
-    image: `${import.meta.env.BASE_URL}/frame3.jpg`
+    image: `${import.meta.env.BASE_URL}frame3.jpg`
   },
   {
     title: 'Histoires vraies',
     description: 'Explorez les résultats, les témoignages et l’impact réel du tatouage thérapeutique.',
-    image: `${import.meta.env.BASE_URL}/frame4.jpg`
+    image: `${import.meta.env.BASE_URL}frame4.jpg`
   },
 ]
 </script>
 
 <template>
   <nav class="flex justify-around item-center mx-40 mt-5 h-20 bg-red-100 rounded-4xl">
+    {{ cards }}
     <img width="200" src="/logo_horizontal_bloomInk_blanc.svg"/>
     <ul class="h-full flex justify-center items-center gap-10">
       <li class="cursor-pointer">
