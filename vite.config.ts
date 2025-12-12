@@ -7,5 +7,6 @@ export default defineConfig({
   plugins: [vue(), tailwindcss()],
   server: {
     allowedHosts: true
-  }
+  },
+  base: '/Landing-Page-BloomInk/',
 })

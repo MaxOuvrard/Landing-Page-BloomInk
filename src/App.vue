@@ -6,17 +6,17 @@ const cards = [
   {
     title: 'Soutien & bien-être',
     description: 'Une communauté bienveillante où partager vos questions, vos doutes et vos victoires, sans jugement.',
-    image: '/frame2.jpg'
+    image: `${import.meta.env.BASE_URL}/frame2.jpg`
   },
   {
     title: 'Le parcours',
     description: 'Guides, étapes, retours d’expérience… Tout pour vous aider à comprendre si le tatouage thérapeutique est fait pour vous.',
-    image: '/frame3.jpg'
+    image: `${import.meta.env.BASE_URL}/frame3.jpg`
   },
   {
     title: 'Histoires vraies',
     description: 'Explorez les résultats, les témoignages et l’impact réel du tatouage thérapeutique.',
-    image: '/frame4.jpg'
+    image: `${import.meta.env.BASE_URL}/frame4.jpg`
   },
 ]
 </script>
