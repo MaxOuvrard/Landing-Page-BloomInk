@@ -9,13 +9,13 @@ const cards = [
     image: '/frame2.jpg'
   },
   {
-    title: 'Le parcours d’adoption',
-    description: 'Guides, étapes, retours d’expérience… Tout pour vous aider à comprendre si le tatouage reconstructif est fait pour vous.',
+    title: 'Le parcours',
+    description: 'Guides, étapes, retours d’expérience… Tout pour vous aider à comprendre si le tatouage thérapeutique est fait pour vous.',
     image: '/frame3.jpg'
   },
   {
     title: 'Histoires vraies',
-    description: 'Découvrez nos animaux, rencontrez-les, et laissez la magie opérer.',
+    description: 'Explorez les résultats, les témoignages et l’impact réel du tatouage thérapeutique.',
     image: '/frame4.jpg'
   },
 ]
@@ -26,7 +26,7 @@ const cards = [
     <img width="200" src="/logo_horizontal_bloomInk_blanc.svg"/>
     <ul class="h-full flex justify-center items-center gap-10">
       <li class="cursor-pointer">
-        Reconstructions
+        Tatouages
       </li>
       <li class="cursor-pointer">
         Conseils & Accompagnement
@@ -45,10 +45,10 @@ const cards = [
       </div>
     </div>
   </nav>
-  <div class="flex justify-around items-center m-25">
+  <div class="flex justify-around items-center gap-15 m-25">
     <div class="w-220 flex flex-col gap-5">
       <h2 class="text-6xl font-semibold">On transforme les marques du passé en force pour l’avenir.</h2>
-      <p>Grâce à BloomInk, trouvez un tatoueur spécialisé en tatouage reconstructif, découvrez des parcours inspirants et avancez à votre rythme vers une nouvelle relation à votre corps. Un espace bienveillant, pensé pour celles et ceux qui méritent enfin de se retrouver.</p>
+      <p>Grâce à BloomInk, trouvez un tatoueur spécialisé en tatouage thérapeutique, découvrez des parcours inspirants et avancez à votre rythme vers une nouvelle relation à votre corps. Un espace bienveillant, pensé pour celles et ceux qui méritent enfin de se retrouver.</p>
     </div>
     <img src="/pexels-eduardordone-2928342%201.jpg" alt="" class="rounded-3xl">
   </div>
@@ -73,7 +73,7 @@ const cards = [
       <div class="flex justify-center gap-10 w-full">
         <div class="w-200 rounded-4xl overflow-hidden glass">
           <div class="flex flex-col justify-center h-full gap-10 px-10 py-7">
-            <h3 class="text-4xl font-bold w-150 leading-13">Chaque reconstruction est unique. La vôtre aussi.</h3>
+            <h3 class="text-4xl font-bold w-150 leading-13">Chaque tatouage est unique. Le vôtre aussi.</h3>
             <div class="flex items-center gap-4 cursor-pointer border-1 rounded-4xl px-7 py-4 bg-white text-black w-fit hover:opacity-70">
               <p>BloomInk vous accompagne avec douceur et expertise</p>
               <img src="/arrow-oriented.svg" alt="">
@@ -83,8 +83,8 @@ const cards = [
 
         <LandingCard
             class="w-95"
-            title="Adoption responsable"
-            description="Chaque tatoueur est vérifié, expérimenté dans la reconstruction. Vous choisissez un artiste de confiance, vraiment adapté à votre parcours."
+            title="Tatoueurs spécialisés"
+            description="Chaque tatoueur est vérifié et expérimenté dans le tatouage thérapeutique. Vous choisissez un artiste de confiance, vraiment adapté à votre parcours."
             image="/frame1.jpg"
         />
       </div>
@@ -104,7 +104,7 @@ const cards = [
 
     <div class="flex flex-col gap-7 w-200 mt-10 ml-50">
       <h1 class="text-4xl">
-        Chaque tatouage reconstructif change une vie.Parfois même deux.
+        Chaque tatouage thérapeutique change une vie. Parfois même deux.
       </h1>
       <p>
         Quand une personne retrouve son reflet, ce sont souvent ses proches, sa famille, sa confiance et son quotidien qui changent aussi. BLOOMINK vous accompagne dès la première question jusqu’à la dernière retouche.
@@ -115,9 +115,10 @@ const cards = [
       </div>
     </div>
 
-    <div class="flex w-full h-100 justify-end ">
-      <div class="relative w-200 h-100 bg-red-100 rounded-3xl border-black border-3 mr-60">
+    <div class="flex w-full h-100 justify-end mt-10">
+      <div class="relative w-170 h-100 bg-red-100 rounded-3xl border-black border-3 mr-60 overflow-hidden">
         <img class="absolute -top-50 -right-45" width="260" src="/img5.png" alt="">
+        <img class="object-cover w-full h-full" src="/9490e6f1cb1d9965a20629243a10141006d16e7e.jpg" alt="">
       </div>
     </div>
   </div>
@@ -135,12 +136,11 @@ const cards = [
           </div>
 
           <p class="text-xl font-light">
-            “Après mon opération, j’avais l’impression que mon corps ne m’appartenait plus. Le tatouage reconstructif n’a pas effacé ce que j’ai vécu, mais il m’a donné une nouvelle force. Grâce à ArtSkin, j’ai trouvé une artiste à l’écoute, qui m’a redonné une relation apaisée avec mon image.”
+            “Après mon opération, j’avais l’impression que mon corps ne m’appartenait plus. Le tatouage thérapeutique n’a pas effacé ce que j’ai vécu, mais il m’a donné une nouvelle force. Grâce à ArtSkin, j’ai trouvé une artiste à l’écoute, qui m’a redonné une relation apaisée avec mon image.”
           </p>
 
-          <div class="flex flex-col text-black">
-            <p class="font-bold">Wade Warren</p>
-            <p class="font-light">Founder & CEO, Thunder</p>
+          <div class="flex flex-col">
+            <p class="font-bold">Manon</p>
           </div>
         </div>
 
@@ -161,8 +161,8 @@ const cards = [
 
       <div class="mt-10 flex flex-col items-center justify-center gap-10">
         <div class="flex flex-col gap-6 w-170 text-center">
-          <h1 class="text-4xl">Faite comme Manon, Soyez-vous aussi son héros.</h1>
-          <p>En adoptant, vous offrez une seconde chance… et en retour, vous recevez un compagnon fidèle pour des années</p>
+          <h1 class="text-4xl">Faite comme Manon, soyez-vous aussi son héros.</h1>
+          <p>Avancez avec une communauté qui vous comprend.</p>
         </div>
 
         <div class="relative text-black py-4 px-7 bg-white rounded-4xl w-fit">
@@ -188,8 +188,8 @@ const cards = [
 
             <div class="flex flex-col gap-10">
               <p>
-                Bloomink est né d’un constat simple : Personne ne devrait traverser seul la reconstruction de son corps.
-                Nous avons réuni : des artistes spécialisés et certifiés, des témoignages authentiques, des ressources fiables, des outils pour vous accompagner étape par étape
+                Bloomink est né d’un constat simple : personne ne devrait traverser seul la reconstruction de son corps.
+                Nous avons réuni : des artistes spécialisés et certifiés, des témoignages authentiques, des ressources fiables et des outils pour vous accompagner étape par étape.
               </p>
               <p>
                 Notre engagement : vous offrir un espace qui respecte votre histoire et célèbre votre courage.
@@ -222,17 +222,17 @@ const cards = [
       </div>
 
       <div class="flex flex-col gap-5">
-        <FAQ title="Est-ce que le tatouage reconstructif fait mal ?" description="Cela dépend de la zone, de la cicatrisation et de votre sensibilité. Les artistes vous expliquent le processus et adaptent leur technique."/>
+        <FAQ title="Est-ce que le tatouage thérapeutique fait mal ?" description="Cela dépend de la zone, de la cicatrisation et de votre sensibilité. Les artistes vous expliquent le processus et adaptent leur technique."/>
         <FAQ title="Puis-je parler avec un artiste avant de prendre une décision ?" description="Cela dépend de la zone, de la cicatrisation et de votre sensibilité. Les artistes vous expliquent le processus et adaptent leur technique."/>
-        <FAQ title="Combien coûte un tatouage reconstructif ?" description="Les prix varient selon la complexité et la taille. Certains projets peuvent être partiellement pris en charge — nous vous guidons selon votre cas."/>
-        <FAQ title="Comment savoir si un tatoueur est réellement spécialisé ?" description="Tous les artistes Bloomink sont notés en permanence et noté par les utilisateur pour les utilisateurs."/>
+        <FAQ title="Combien coûte un tatouage thérapeutique ?" description="Les prix varient selon la complexité et la taille. Certains projets peuvent être partiellement pris en charge, nous vous guidons selon votre cas."/>
+        <FAQ title="Comment savoir si un tatoueur est réellement spécialisé ?" description="Les tatoueurs Bloomink sont constament évalués par la communauté, pour garantir une experience fiable et transparente."/>
       </div>
     </div>
   </div>
 
   <div class="mt-10 py-10 flex flex-col items-center justify-around pb-40 gap-15">
     <h1 class="relative text-5xl font-bold w-150 text-center">
-      Prêt·e à faire décoller votre reconstruction ?
+      Prêt(e) à transformer votre cicatrice en œuvre d’art thérapeutique ?
       <img class="absolute -left-40 -top-5" src="/abstract1.png" alt="">
     </h1>
     
