@@ -118,9 +118,9 @@ const frame2 = `${import.meta.env.BASE_URL}frame2.jpg`
     </div>
 
     <div class="flex w-full h-100 justify-end mt-10">
-      <div class="relative w-170 h-100 bg-red-100 rounded-3xl border-black border-3 mr-60 overflow-hidden">
+      <div class="relative w-170 h-100 bg-red-100 rounded-3xl border-black border-3 mr-60">
         <img class="absolute -top-50 -right-45" width="260" src="/img5.png" alt="">
-        <img class="object-cover w-full h-full" src="/9490e6f1cb1d9965a20629243a10141006d16e7e.jpg" alt="">
+        <img class="object-cover w-full h-full rounded-3xl" src="/9490e6f1cb1d9965a20629243a10141006d16e7e.jpg" alt="">
       </div>
     </div>
   </div>
