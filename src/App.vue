@@ -23,7 +23,6 @@ const cards = [
 
 <template>
   <nav class="flex justify-around item-center mx-40 mt-5 h-20 bg-red-100 rounded-4xl">
-    {{ cards }}
     <img width="200" src="/logo_horizontal_bloomInk_blanc.svg"/>
     <ul class="h-full flex justify-center items-center gap-10">
       <li class="cursor-pointer">
